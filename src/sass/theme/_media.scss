@@ -1,0 +1,137 @@
+/* = MEDIA = */
+@media screen and (max-width:1200px){
+  .text {
+    font-size: 30px;
+  }
+}
+@media screen and (max-width:992px){
+  .header-navigation {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .text {
+    max-width: 100%;
+    br {
+      display: none;
+    }
+  }
+  .text__title {
+    display: block;
+    width: inherit;
+  }
+  .section-1 {
+    padding-top: 100px;
+    padding-bottom: 175px;
+  }
+  .bonus {
+    font-size: 20px;
+    &__label {
+      font-size: 30px;
+    }
+  }
+  .steps-description__number{
+    font-size: 16px;
+    margin-right: 10px;
+    height: 40px;
+    width: 70px;
+  }
+  .steps-description__text {
+    font-size: 14px;
+  }
+  .warning__image {
+    margin-right: 20px;
+  }
+  .warning-information__text {
+    font-size: 14px;
+  }
+  .warning-information__spam {
+    font-size: 14px;
+  }
+  .warning-information__telegram-link {
+    height: 25px;
+    width: 115px;
+    span {
+      line-height: 25px;
+    }
+  }
+}
+@media screen and (max-width:768px){
+  .header-navigation {
+    padding-top:10px;
+    padding-bottom:10px;
+  }
+  .navigation-logo{
+    font-size: 10px;
+    span{
+      font-size: 18px;
+    }
+  }
+  .date__month{
+    font-size: 18px;
+  }
+  .text {
+    font-size: 24px;
+  }
+  .section-2 {
+    padding-bottom: 35px;
+  }
+  .steps {
+    flex-direction: column;
+    margin-bottom: 35px;
+  }
+  .steps__item {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .warning {
+    flex-direction: column;
+  }
+  .warning__image{
+    margin-right: 0;
+    margin-bottom: 15px;
+  }
+  .warning-information {
+    text-align: center;
+  }
+  .warning-information__spam {
+    line-height: 1.5;
+  }
+}
+@media screen and (max-width:667px){}
+@media screen and (max-width:640px){}
+@media screen and (max-width:568px){
+  .text {
+    font-size: 18px;
+    text-align: center;
+  }
+  .section-1{
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  .text__title {
+    font-size: 12px;
+  }
+  .section-1 {
+    padding-bottom: 170px;
+  }
+  .bonus {
+    text-align: center;
+    font-size: 18px;
+  }
+  .bonus__label {
+    font-size: 25px;
+    margin-right: 10px;
+    &:before {
+      height: 10px;
+      width: 100%;
+    }
+  }
+}
+@media screen and (max-width:480px){}
+@media screen and (max-width:414px){}
+@media screen and (max-width:375px){}
+@media screen and (max-width:360px){}
+@media screen and (max-width:320px){}
+/* = MEDIA END = */
